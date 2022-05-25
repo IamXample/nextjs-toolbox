@@ -13,13 +13,13 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="LyraGuard Discord Bot" />
+       <center><Header title="LyraGuard Discord Bot" />
         <hr />
         <p className="description">
           Feedback is always welcome for the LyraGuard Bot. Either thats Bugs or Positiveness, All is welcome!
         </p>
         <FeedbackForm />
-        <JokeBlock />
+        <JokeBlock /><center />
       </main>
       <Footer />
     </div>
